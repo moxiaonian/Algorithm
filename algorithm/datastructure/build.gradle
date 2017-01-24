@@ -1,0 +1,7 @@
+version = "${versions.tz_framework}"
+
+dependencies {
+	testCompile libraries.junit
+	
+	compile libraries.jsr305
+}
